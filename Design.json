@@ -1,0 +1,121 @@
+{
+    "designSystem": {
+      "style": {
+        "colorPalette": {
+          "primary": "#1F3D2A",
+          "secondary": "#5D7C6A",
+          "accent": "#D6E4DC",
+          "background": "#FFFFFF",
+          "textPrimary": "#1A1A1A",
+          "textSecondary": "#555555",
+          "buttonPrimary": {
+            "bg": "#1F3D2A",
+            "text": "#FFFFFF"
+          },
+          "buttonSecondary": {
+            "bg": "#FFFFFF",
+            "text": "#1F3D2A",
+            "border": "#1F3D2A"
+          }
+        },
+        "typography": {
+          "headingFont": "Serif or Transitional (e.g., Georgia, Playfair Display)",
+          "bodyFont": "Sans-serif (e.g., Inter, Open Sans)",
+          "headingStyles": {
+            "h1": { "size": "42px", "weight": "700", "lineHeight": "120%" },
+            "h2": { "size": "32px", "weight": "600", "lineHeight": "130%" },
+            "h3": { "size": "24px", "weight": "600", "lineHeight": "140%" },
+            "body": { "size": "16px", "weight": "400", "lineHeight": "160%" }
+          }
+        },
+        "spacing": {
+          "sectionPadding": "80px 0",
+          "containerWidth": "1200px",
+          "gridGap": "24px",
+          "cardPadding": "24px"
+        },
+        "shapes": {
+          "buttons": "8px radius",
+          "cards": "12px radius",
+          "images": "rounded corners, sometimes circular"
+        },
+        "effects": {
+          "shadows": {
+            "card": "0px 4px 12px rgba(0,0,0,0.08)",
+            "hover": "0px 6px 16px rgba(0,0,0,0.12)"
+          },
+          "transitions": "all 0.3s ease-in-out"
+        }
+      },
+      "structure": {
+        "header": {
+          "layout": "horizontal flex",
+          "elements": ["logo (left)", "navigation (center)", "contact + CTA button (right)"],
+          "navStyle": "simple text links with hover underline"
+        },
+        "heroSection": {
+          "layout": "two-column",
+          "left": "headline, subtext, CTA button",
+          "right": "image",
+          "background": "light gradient or white"
+        },
+        "valueProps": {
+          "layout": "three-column grid",
+          "elements": "icon/heading + short description"
+        },
+        "testimonialSection": {
+          "layout": "card-based with reviewer name, rating, and short quote",
+          "style": "minimal with emphasis on stars and platform logos"
+        },
+        "servicesSection": {
+          "layout": "three-card grid",
+          "cardDesign": "image (top) + heading + description + CTA",
+          "hover": "slight shadow + lift"
+        },
+        "aboutSection": {
+          "layout": "two-column with text and image",
+          "content": "mission statement, unique approach"
+        },
+        "stepsSection": {
+          "layout": "horizontal three-step process",
+          "style": "numbered steps with icon/image + description"
+        },
+        "ctaSection": {
+          "layout": "full-width banner",
+          "content": "headline, subtext, CTA button",
+          "style": "contrasting background"
+        },
+        "locationSection": {
+          "layout": "two-column with map + address text",
+          "mapStyle": "embedded interactive map"
+        },
+        "footer": {
+          "layout": "multi-column grid",
+          "columns": ["contact info", "services links", "legal links"],
+          "style": "minimal with muted background and smaller text"
+        }
+      },
+      "components": {
+        "buttons": {
+          "primary": {
+            "style": "filled, rounded",
+            "hover": "darken background"
+          },
+          "secondary": {
+            "style": "outlined, rounded",
+            "hover": "fill with primary color"
+          }
+        },
+        "cards": {
+          "layout": "image + text",
+          "padding": "24px",
+          "hover": "slight lift/shadow"
+        },
+        "forms": {
+          "inputStyle": "rounded corners, subtle border",
+          "button": "primary style"
+        }
+      }
+    }
+  }
+  
